@@ -1,0 +1,217 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#logo{
+    width: 68px;
+    display: flex;
+}
+
+.img-produto{
+    display: flex;
+    justify-content: center;
+    margin-left: 350px;
+    margin-right: 250px;
+}
+#tenis{
+    width: 500px;   
+    border-radius: 5px;
+}
+.tenis{
+    margin-right: 60px;
+}
+.tit-tenis{
+    margin-bottom: 50px;
+}
+.artigos{
+    margin-bottom: 50px;
+}
+.conteudo{
+    display: block;
+}
+.descricao-tabela{
+    color: rgb(0, 0, 0);
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+.geral{
+    display: flex;
+    justify-content: space-between;
+    height: 3.5em;
+    padding: 0 10%;
+    background-color: black;
+    margin-bottom: 20px;
+}
+.home{
+    gap: 3em;
+}
+
+
+
+
+.footer1{
+    display: flex;
+    border-top: 1px solid rgb(0, 0, 0);
+    flex-direction: column;
+    padding: 20px;
+    background-color: black;
+}
+.footer2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.item1{
+    width: auto;
+    border-right: 1px solid rgb(160, 161, 161);
+    display: inline-block;
+    margin: auto;
+    padding: 5px;
+}
+.item2{
+    width: auto;
+    border-right: 1px solid rgb(160, 161, 161);
+    display: inline-block;
+    margin: auto;
+    padding: 5px;
+}
+.item3{
+    width: auto;
+    border-right: 1px solid rgb(160, 161, 161);
+    display: inline-block;
+    margin: auto;
+    padding: 5px;
+}
+.item4{
+    width: auto;
+    border-right: 1px solid rgb(160, 161, 161);
+    display: inline-block;
+    margin: auto;
+    padding: 5px;
+}
+.item5{
+    width: auto;
+    border-right: 1px solid rgb(160, 161, 161);
+    display: inline-block;
+    margin: auto;
+    padding: 5px;
+}
+.item6{
+    width: auto;
+    border-right: 1px solid rgb(160, 161, 161);
+    display: inline-block;
+    margin: auto;
+    padding: 5px;
+}
+.Endereco{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+section{
+    margin-bottom: 50px;
+}
+ .faleconosco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+ }
+ .formulario{
+    display: flex;
+    justify-content: center;
+ }
+fieldset{
+    display: flex;
+    
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 500px){
+    *{
+     margin: 0px;
+    }
+    .geral{
+        height: 3.4em;
+        padding: 1px;
+        justify-content: center;
+    }
+    .home{
+        gap: 1em;
+        display: flex;
+        padding-right: 10px;
+    }
+    .produto{
+      margin-right: 20px;
+    }
+    #logo{
+     width: 60px;
+     margin-right: 10px;
+    }
+    #tenis{
+     width: 356px;
+     margin-left: 10px;
+     display: block;
+    }
+    .img-produto{
+        display: block;
+        margin: 2px;
+    }
+    .tit-tenis{
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        text-align: justify;
+        color: #383F8F
+    }
+    .artigos{
+        text-align: justify;
+        margin-right: 30px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        font-size: medium;
+    }
+    .descricao-tabela{
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    section{
+        margin-bottom: 25px;
+    }
+    fieldset{
+        display: block;
+        margin-right: 50px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    
+ }
